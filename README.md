@@ -8,6 +8,8 @@ Repository: https://github.com/nicegood123/project-flow
 
 The project scope and implementation plan were drafted in ChatGPT before development began. The work was then organized into GitHub issues and implemented with GitHub Copilot in VS Code. GitHub Copilot was used to help create the Laravel backend, Vue frontend, tests, documentation, and validation commands; implementation decisions and final verification remained part of the development workflow.
 
+Git-recorded development time: 36 minutes 45 seconds, from the first project commit at 15:26:40 to the latest documentation update at 16:03:25 on 2026-09-02 (UTC+08:00).
+
 ## Technology Stack
 
 - Laravel 13 and PHP 8.3
