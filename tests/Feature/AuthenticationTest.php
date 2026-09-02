@@ -28,6 +28,7 @@ test('a user can log in and log out', function () {
     $this->post('/login', [
         'email' => $user->email,
         'password' => 'password',
+        'remember' => true,
     ])
         ->assertRedirect('/projects');
 
