@@ -1,7 +1,7 @@
 <?php
 
-test('returns a successful response', function () {
+test('redirects visitors to login', function () {
     $response = $this->get(route('home'));
 
-    $response->assertOk();
+    $response->assertRedirect('/login');
 });
