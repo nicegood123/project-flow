@@ -4,6 +4,20 @@ Project Flow is a Laravel and Vue application for managing client projects.
 
 Repository: https://github.com/nicegood123/project-flow
 
+## Development Workflow
+
+The project scope and implementation plan were drafted in ChatGPT before development began. The work was then organized into GitHub issues and implemented with GitHub Copilot in VS Code. GitHub Copilot was used to help create the Laravel backend, Vue frontend, tests, documentation, and validation commands; implementation decisions and final verification remained part of the development workflow.
+
+## Technology Stack
+
+- Laravel 13 and PHP 8.3
+- Vue 3 Composition API with Inertia.js
+- TypeScript and Vite
+- Tailwind CSS
+- MySQL with Laravel Eloquent
+- Laravel Form Requests, API Resources, and session authentication
+- Pest, Laravel Pint, PHPStan, and Vite Plus quality checks
+
 ## Setup Instructions
 
 ### Requirements
@@ -57,6 +71,33 @@ npm run check
 - Whitelisted sorting with ascending and descending directions.
 - Reusable project form, status indicator, and priority indicator components.
 - Project factory, seeder, and feature-test coverage for authentication and the API.
+
+## GitHub Issue Plan
+
+The following issues were prepared as the implementation plan for GitHub Copilot:
+
+- [x] #1 Initialize Laravel Project
+- [x] #2 Configure Vue Frontend
+- [x] #3 Create Projects Database Migration
+- [x] #4 Create Project Eloquent Model
+- [x] #5 Add Project Factory and Seeder
+- [x] #6 Create Project REST API Routes
+- [x] #7 Implement Project CRUD API
+- [x] #8 Add Project Request Validation
+- [x] #9 Standardize Project API Responses
+- [x] #10 Create Project List Page
+- [x] #11 Add Status and Priority Indicators
+- [x] #12 Create Project Form
+- [x] #13 Connect Create Form to REST API
+- [x] #14 Create Edit Project Form
+- [x] #15 Connect Edit Form to REST API
+- [x] #16 Implement Project Deletion
+- [x] #17 Add Project API Feature Tests
+- [x] #18 Improve Project API Architecture
+- [x] #19 Add Project Search
+- [x] #20 Add Project Filtering
+- [x] #21 Add Project Sorting
+- [x] #22 Add Authentication with Registration
 
 ## Assumptions Made
 
